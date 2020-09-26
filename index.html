@@ -3,10 +3,56 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Harikrishan</title>
 </head>
 <body>
-	<h1>Hello</h1>
+	
+	<header>
+		<div class="menu">
+			<div class="btn-line"></div>
+			<div class="btn-line"></div>
+			<div class="btn-line"></div>
+		</div>
+
+		<nav class="menu">
+			<ul class="menu-nav">
+				<li class="nav-item">
+					<a href="/" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="/about.html" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="/posts.html" class="nav-link">Posts</a>
+				</li>
+				<li class="nav-item">
+					<a href="/contact.html" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="home">
+		<h1 class="lg-heading">
+			Hari<span class="text-second">krishnan A</span>
+		</h1>
+		<h2 class="sm-heading">Programmer, DevOps Engineer and FOSS enthusiast</h2>
+		<div class="icons">
+			<a href="#!">
+				<i class="fab fa-linkedin fa-2x"></i>
+			</a>
+			<a href="#!">
+				<i class="fab fa-github fa-2x"></i>
+			</a>
+			<a href="#!">
+				<i class="fab fa-gitlab fa-2x"></i>
+			</a>
+		</div>
+	</main>
+
+	<script src="js/main.js"></script>
 </body>
 </html>

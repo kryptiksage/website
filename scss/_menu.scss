@@ -64,4 +64,35 @@
 			transform: translateX(0);
 		}
 	}
+
+	.nav-item {
+		transform: translateX(100%);
+		@include easeOut;
+
+		&.show {
+			transform: translateX(0);
+		}
+	}
+
+	.nav-link {
+		display: inline-block;
+		position: relative;
+		font-size: 30px;
+		text-transform: uppercase;
+		padding: 1rem 0;
+		font-weight: 300;
+		color: white;
+		text-decoration: none;
+		@include easeOut;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+@for $x from 1 through 4 {
+	.nav-item:nth-child(#{$x}) {
+		transition-delay: $x * 0.1s;
+	}
 }

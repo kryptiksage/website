@@ -44,6 +44,35 @@
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translateX(0); }
+  .menu .nav-item {
+    transform: translateX(100%);
+    transition: all 0.5s ease-out; }
+    .menu .nav-item.show {
+      transform: translateX(0); }
+  .menu .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-out; }
+    .menu .nav-link:hover {
+      text-decoration: underline; }
+
+.nav-item:nth-child(1) {
+  transition-delay: 0.1s; }
+
+.nav-item:nth-child(2) {
+  transition-delay: 0.2s; }
+
+.nav-item:nth-child(3) {
+  transition-delay: 0.3s; }
+
+.nav-item:nth-child(4) {
+  transition-delay: 0.4s; }
 
 * {
   box-sizing: border-box; }
@@ -55,6 +84,12 @@ body {
   margin: 0;
   font-family: 'Fira Code', monospace;
   line-height: 1.5; }
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 3px #eece1a; }
 
 h1, h2, h3 {
   margin: 0;
@@ -93,4 +128,6 @@ main {
   main#home {
     overflow: hidden; }
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 5vh; }
+    main#home img {
+      margin-top: 5vh; }

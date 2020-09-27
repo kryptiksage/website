@@ -31,6 +31,14 @@
 			background: rgba(lighten($color: $primary-color, $amount: 0.1),0.9);
 		}
 	}
+
+	.about-info {
+		grid-template-areas: 'bioimage'
+		'bio'
+		'job1';
+
+		grid-template-columns: 1fr;
+	}
 }
 
 // Phone

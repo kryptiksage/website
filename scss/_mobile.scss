@@ -1,0 +1,41 @@
+// Widescreen
+@include mediaXL {
+
+}
+
+// Desktop
+@include mediaLg {
+	
+}
+
+// Tabs
+@include mediaMd {
+	main {
+		align-items: center;
+		text-align: center;
+
+		.lg-heading {
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.menu-nav {
+		float: none;
+		width: 100%;
+		transform: translateY(-100%);
+		font-size: 24px;
+
+		&.show {
+			transform: translateY(0);
+			background: rgba(lighten($color: $primary-color, $amount: 0.1),0.9);
+		}
+	}
+}
+
+// Phone
+@include mediaSm {
+	main#home h1 {
+		margin-top: 10vh;
+	}
+}

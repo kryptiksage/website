@@ -126,6 +126,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
+        padding: 1rem;
         color: #88c0d0;
         transition: all 0.5s ease-out; }
   main#home {

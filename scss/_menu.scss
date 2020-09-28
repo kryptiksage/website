@@ -55,7 +55,7 @@
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
-		background: darken($primary-color, $amount: 10);
+		//background: darken($primary-color, $amount: 5);
 		list-style: none;
 		transform: translateX(100%);
 		@include easeOut;
@@ -75,6 +75,8 @@
 	}
 
 	.nav-link {
+		padding: 0.2rem 0rem;
+		background: rgba($primary-color, 0.9);
 		display: inline-block;
 		position: relative;
 		font-size: 30px;

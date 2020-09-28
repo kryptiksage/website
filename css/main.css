@@ -33,11 +33,12 @@
     align-items: center;
     justify-content: center;
     float: right;
-    width: 50%;
+    width: 20%;
     height: 100vh;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    background: #21262e;
     list-style: none;
     transform: translateX(100%);
     transition: all 0.5s ease-out; }
@@ -49,8 +50,6 @@
     .menu .nav-item.show {
       transform: translateX(0); }
   .menu .nav-link {
-    padding: 0.2rem 0rem;
-    background: rgba(35, 40, 49, 0.9);
     display: inline-block;
     position: relative;
     font-size: 30px;

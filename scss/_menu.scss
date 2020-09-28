@@ -50,12 +50,12 @@
 		align-items: center;
 		justify-content: center;
 		float: right;
-		width: 50%;
+		width: 20%;
 		height: 100vh;
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
-		//background: darken($primary-color, $amount: 5);
+		background: darken($primary-color, $amount: 1);
 		list-style: none;
 		transform: translateX(100%);
 		@include easeOut;
@@ -75,8 +75,6 @@
 	}
 
 	.nav-link {
-		padding: 0.2rem 0rem;
-		background: rgba($primary-color, 0.9);
 		display: inline-block;
 		position: relative;
 		font-size: 30px;

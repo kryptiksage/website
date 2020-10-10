@@ -90,7 +90,7 @@ main {
 	margin-top: 1vh;
 	display: grid;
 	grid-gap: 20 px;
-	grid-template-areas: 'bioimage bio bio bio' 'job1 job1 job1 job1';
+	grid-template-areas: 'bioimage bio bio bio' 'job1 job1 job2 job2';
 	grid-template-columns: repeat(4,4fr);
 }
 
@@ -110,11 +110,22 @@ main {
 .job {
 	margin-top: 1vh;
 	background: lighten($primary-color, 5);
+	h3 {
+		color: $nord8;
+	}
+
+	h6 {
+		color: $nord14;
+	}
 	padding: 0.5rem;
 }
 
 .job-1 {
 	grid-area: job1;
+}
+
+.job-2 {
+	grid-area: job2;
 }
 
 #main-footer {
